@@ -1,0 +1,6 @@
+sudo apt-get install python3-pip omxplayer
+pip3 install requests
+crontab -e
+
+To set the alarm clock @7am from MON to FRI, add of the crontab file:
+0 7 * * 1-5 /path/to/downloadZanza.py 
